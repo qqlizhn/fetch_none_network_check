@@ -204,6 +204,7 @@ public class FileServerActivity extends AppCompatActivity {
             final String err = "Download From FileServer Error " + download.getError().toString();
             textView.setText(err);
             Timber.d(err);
+
         }
     };
 
